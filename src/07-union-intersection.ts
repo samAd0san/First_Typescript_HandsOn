@@ -1,4 +1,4 @@
-// Union types (OR)
+// <**> Union types (OR) <**>
 
 type Status = "pending" | "approved" | "rejected"; 
 
@@ -32,7 +32,7 @@ printId("hello"); // HELLO
 
 // -----x-----
 
-// Intersection types (AND)
+// <**> Intersection types (AND) <**>
 interface Colourful {
     colour: string;
 }
