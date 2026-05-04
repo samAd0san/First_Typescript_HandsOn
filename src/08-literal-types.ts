@@ -1,5 +1,7 @@
 // you can use 'type' defined variable in multiple places i.e variables, function, object etc.
-// but this let is just a variable
+// but let is just a variable
+
+// LITERAL TYPE - mean a variable can hold only exact specific values, not any value of that type.
 
 let direction: 'north' | 'south' | 'east' | 'west';
 direction = 'east' // OK
